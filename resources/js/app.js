@@ -18,7 +18,7 @@ const router = new VueRouter({
     routes: routes
 });
 
-axios.defaults.baseURL = process.env.MIX_VUE_APP_BASE_URL_API || 'http://127.0.0.1:8000/'
+axios.defaults.baseURL = process.env.MIX_VUE_APP_BASE_URL_API || 'http://api.testcodeserver.site'
 axios.defaults.withCredentials = true
 
 router.beforeEach((to,from,next)=>{

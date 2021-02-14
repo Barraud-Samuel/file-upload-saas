@@ -3445,7 +3445,7 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_6__.default({
   mode: 'history',
   routes: _router_js__WEBPACK_IMPORTED_MODULE_2__.routes
 });
-(axios__WEBPACK_IMPORTED_MODULE_4___default().defaults.baseURL) = process.env.MIX_VUE_APP_BASE_URL_API || 'http://127.0.0.1:8000/';
+(axios__WEBPACK_IMPORTED_MODULE_4___default().defaults.baseURL) = process.env.MIX_VUE_APP_BASE_URL_API || 'http://api.testcodeserver.site';
 (axios__WEBPACK_IMPORTED_MODULE_4___default().defaults.withCredentials) = true;
 router.beforeEach(function (to, from, next) {
   if (!to.meta.middleware) {
